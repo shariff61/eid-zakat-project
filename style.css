@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.6px;
+  font-size: 1.4rem;
+  color: #343a40;
+}
+.container {
+  width: 90%;
+  margin: 0% auto;
+}
+
+.main {
+  background-image: linear-gradient(
+      30deg,
+      rgba(23, 23, 23, 0.877),
+      rgba(62, 66, 62, 0.845)
+    ),
+    url(images/eid-hatBazar.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+
+  opacity: 1;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4c6ef5;
+  padding: 2rem;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  list-style: none;
+}
+.nav li a {
+  margin-right: 2rem;
+  color: white;
+  text-decoration: none;
+}
+.html {
+  font-size: 40px;
+}
+.nav li a:hover {
+  border-bottom: 4px solid #fa5252;
+}
+.header {
+  width: 40%;
+
+  padding: 12rem;
+  color: white;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2.8rem;
+}
+img {
+  border-radius: 15px;
+}
+.link {
+  display: inline-block;
+  background-color: #fa5252;
+  padding: 1rem 2.4rem;
+  border-radius: 12px;
+  box-shadow: 4px 4px 10px wheat;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin: 2rem 0;
+}
+.middle-section {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4rem;
+  gap: 2rem;
+  margin: 6rem auto;
+}
+.half-width {
+  width: 40%;
+}
+.half-width iframe {
+  border-radius: 12px;
+  margin: 2rem;
+}
+.half-width img {
+  box-shadow: 4px 4px 10px #fa5252;
+}
+.text {
+  width: 40%;
+  margin: 4rem auto;
+  text-align: center;
+}
+/* .donate-logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+} */
+.donate-logo {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.icon i {
+  font-size: 100px;
+  color: #ffa8a8;
+}
+.icon {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: #fff5f5;
+}
+h4 {
+  color: black;
+}
+.icon p {
+  color: #adb5bd;
+}
+.images {
+  display: flex;
+  justify-content: space-evenly;
+}
+.img img {
+  width: 420px;
+  height: 300px;
+}
+.text-center {
+  width: 70%;
+}
+.zakat-found {
+  margin: 4rem;
+  gap: 2rem;
+}
+.zakat-des {
+  border-radius: 20px;
+  box-shadow: 1px 1px 15px wheat;
+
+  padding: 1.5rem;
+}
+.zakat-des img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 2rem;
+}
+.btn {
+  color: #fa5252;
+}
+footer {
+  text-align: center;
+  background-color: #495057;
+  padding: 5rem;
+  color: white;
+}
